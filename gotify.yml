@@ -32,7 +32,7 @@ spec:
           type: RuntimeDefault
       containers:
       - name: gotify
-        image: git.spdnova.xyz/skh/dockerfiles/gotify:latest
+        image: git.spdnova.xyz/skh/dockerfiles/gotify:v44.24
         imagePullPolicy: IfNotPresent
         volumeMounts:
         - name: gotify-data
